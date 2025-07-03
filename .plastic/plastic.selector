@@ -1,4 +1,0 @@
-repository "Last Peaceful Day/Last Peaceful Day@4674088537337@cloud"
-  path "/"
-    br "/main"
-    co "/main"
