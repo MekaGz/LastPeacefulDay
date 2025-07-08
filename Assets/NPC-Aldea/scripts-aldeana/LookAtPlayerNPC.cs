@@ -171,7 +171,14 @@ public class LookAtPlayerNPC : MonoBehaviour
 
         yield return new WaitForSeconds(duration);
 
-        blackScreen.SetActive(false); // Desaparece pantalla negra con gif
-        player.GetComponent<PlayerController>().enabled = true;
+        // Aquí se realiza el cambio de personaje
+        FindObjectOfType<GameManager>().ReplacePlayer();
+
+        blackScreen.SetActive(false); // Desactiva pantalla negra con gif
+
+        // Solo reactiva controles si el nuevo personaje ya está listo
+        GameObject newPlayer = GameObject.FindGameObjectWithTag("Player");
+        if (newPlayer != null)
+            newPlayer.GetComponent<PlayerController>().enabled = true;
     }
 }

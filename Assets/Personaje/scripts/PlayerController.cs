@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public float RunSpeed = 7;
     public float RotationSpeed = 250;
+    public bool canControl = true;
+
 
     public Animator animator;
 
@@ -14,6 +16,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (!canControl)
+        {
+            animator.SetFloat("VelX", 0);
+            animator.SetFloat("VelY", 0);
+            return;
+        }
+
         x = Input.GetAxis("Horizontal");
         y = Input.GetAxis("Vertical");
 
