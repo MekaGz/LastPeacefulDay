@@ -84,8 +84,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K)) // Simular muerte
         {
-            animator.SetTrigger("Die");
-            controller.enabled = false;
+            FindObjectOfType<PlayerHealth>().Die();
         }
 
     }
