@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\assets\\personaje\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\repositorio-unity\\lastpeacefulday\\assets\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\repositorio-unity\\lastpeacefulday\\assets\\personaje\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|solutionrelative:assets\\personaje\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|solutionrelative:assets\\npc-aldea\\scripts-aldeana\\lookatplayernpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\repositorio-unity\\lastpeacefulday\\assets\\personaje\\personaje2\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\assets\\personaje\\personaje2\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B0E105-9A84-9C49-06ED-A35090D3B95A}|Assembly-CSharp.csproj|solutionrelative:assets\\personaje\\personaje2\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeleportPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\Assets\\Scripts\\TeleportPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TeleportPlayer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\Assets\\Scripts\\TeleportPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TeleportPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T18:59:05.493Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAIwA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T16:55:15.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T16:55:15.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LookAtPlayerNPC.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\Assets\\NPC-Aldea\\scripts-aldeana\\LookAtPlayerNPC.cs",
               "RelativeDocumentMoniker": "Assets\\NPC-Aldea\\scripts-aldeana\\LookAtPlayerNPC.cs",
@@ -51,12 +67,11 @@
               "RelativeToolTip": "Assets\\NPC-Aldea\\scripts-aldeana\\LookAtPlayerNPC.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAAQwE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T17:10:20.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T17:10:20.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\repositorio-unity\\LastPeacefulDay\\Assets\\Personaje\\scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Personaje\\scripts\\PlayerController.cs",
