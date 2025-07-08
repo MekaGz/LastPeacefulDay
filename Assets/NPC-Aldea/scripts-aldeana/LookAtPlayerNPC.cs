@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 using UnityEngine.UI;
 
 public class LookAtPlayerNPC : MonoBehaviour
@@ -16,6 +17,9 @@ public class LookAtPlayerNPC : MonoBehaviour
 
     public GameObject cartaPanel; // UI Image de la carta
     public float cartaWaitTime = 3f;
+
+    public GameObject blackScreen;
+
 
     private Transform player;
     private int currentLine = 0;
@@ -158,6 +162,16 @@ public class LookAtPlayerNPC : MonoBehaviour
         secondDialogueStarted = false;
 
         // Reactivar movimiento u otro evento
+        player.GetComponent<PlayerController>().enabled = false;
+        StartCoroutine(ShowBlackScreen(5f));
+    }
+    IEnumerator ShowBlackScreen(float duration)
+    {
+        blackScreen.SetActive(true); // Activa pantalla negra con gif
+
+        yield return new WaitForSeconds(duration);
+
+        blackScreen.SetActive(false); // Desaparece pantalla negra con gif
         player.GetComponent<PlayerController>().enabled = true;
     }
 }
