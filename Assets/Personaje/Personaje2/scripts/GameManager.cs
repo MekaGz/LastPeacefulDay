@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     {
         // Activa al nuevo personaje (si estaba desactivado)
         playerNewObject.SetActive(true);
+        playerNewObject.tag = "Player";
 
         // Mueve la cámara para que lo siga
         Camera.main.GetComponent<SimpleCameraFollow>().target = playerNewObject.transform;

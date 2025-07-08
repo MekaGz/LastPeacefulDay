@@ -48,7 +48,18 @@ public class LookAtPlayerNPC : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return;
+        if (player == null)
+        {
+            GameObject foundPlayer = GameObject.FindGameObjectWithTag("Player");
+            if (foundPlayer != null)
+            {
+                player = foundPlayer.transform;
+            }
+            else
+            {
+                return; // Todavía no hay player
+            }
+        }
 
         float distance = Vector3.Distance(transform.position, player.position);
         if (distance <= lookRadius && !isTalking && currentLine == 0)
