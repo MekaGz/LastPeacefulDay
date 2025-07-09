@@ -140,7 +140,7 @@ namespace SlimUI.ModernMenu{
 		}
 
 		public void CargarDirecto(){
-			SceneManager.LoadScene("SampleScene");
+			SceneManager.LoadScene(scene);
 		}
 		public void LoadScene(string scene)
 		{
