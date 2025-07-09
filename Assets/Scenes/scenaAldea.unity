@@ -8243,7 +8243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 836417702}
-  offset: {x: 0, y: 5, z: -7}
+  offset: {x: -3.4, y: 2.32, z: 1.97}
   followSpeed: 5
 --- !u!1001 &969914027
 PrefabInstance:
