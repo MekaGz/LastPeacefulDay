@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|c:\\users\\kaled\\downloads\\git\\backups\\aldeafelix\\assets\\personaje\\scripts\\simplecamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\personaje\\scripts\\simplecamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|c:\\users\\kaled\\downloads\\git\\backups\\aldeafelix\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\assets\\personaje\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\personaje\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\assets\\scripts\\triggersceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggersceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\assets\\scripts\\scenesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\assets\\personaje\\personaje2\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647CFD26-0624-528F-6283-E4799FBADDEA}|Assembly-CSharp.csproj|solutionrelative:assets\\personaje\\personaje2\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimpleCameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Personaje\\scripts\\SimpleCameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Personaje\\scripts\\SimpleCameraFollow.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Personaje\\scripts\\SimpleCameraFollow.cs",
+              "RelativeToolTip": "Assets\\Personaje\\scripts\\SimpleCameraFollow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T15:39:27.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:37:35.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Personaje\\scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Personaje\\scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Personaje\\scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Personaje\\scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:58:22.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TriggerSceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\TriggerSceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerSceneLoader.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\TriggerSceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerSceneLoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:39:21.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SceneSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\SceneSetup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneSetup.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\SceneSetup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:31:05.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Personaje\\Personaje2\\scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:17:30.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameManager2.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\GameManager2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager2.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Downloads\\git\\backups\\AldeaFelix\\Assets\\Scripts\\GameManager2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:16:33.75Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
