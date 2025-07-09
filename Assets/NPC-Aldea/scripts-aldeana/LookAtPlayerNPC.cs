@@ -97,6 +97,8 @@ public class LookAtPlayerNPC : MonoBehaviour
 
         // Detener movimiento
         player.GetComponent<PlayerController>().enabled = false;
+        // Detener sonido de pasos
+        player.GetComponent<AudioSource>().Pause();
 
         // Forzar animación Idle
         Animator playerAnimator = player.GetComponent<Animator>();
@@ -174,6 +176,8 @@ public class LookAtPlayerNPC : MonoBehaviour
 
         // Reactivar movimiento u otro evento
         player.GetComponent<PlayerController>().enabled = false;
+        // Detener pasos si quedaban activos
+        player.GetComponent<AudioSource>().Pause();
         StartCoroutine(ShowBlackScreen(5f));
     }
     IEnumerator ShowBlackScreen(float duration)

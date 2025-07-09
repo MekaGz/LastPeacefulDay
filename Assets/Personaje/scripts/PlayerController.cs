@@ -14,12 +14,23 @@ public class PlayerController : MonoBehaviour
 
     private float x, y;
 
+    private AudioSource footstepAudio;
+
+    void Start()
+    {
+        footstepAudio = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if (!canControl)
         {
             animator.SetFloat("VelX", 0);
             animator.SetFloat("VelY", 0);
+
+            if (footstepAudio.isPlaying)
+                footstepAudio.Pause();
+
             return;
         }
 
@@ -31,5 +42,16 @@ public class PlayerController : MonoBehaviour
 
         animator.SetFloat("VelX", x);
         animator.SetFloat("VelY", y);
+
+        if (Mathf.Abs(x) > 0 || Mathf.Abs(y) > 0)
+        {
+            if (!footstepAudio.isPlaying)
+                footstepAudio.Play();
+        }
+        else
+        {
+            if (footstepAudio.isPlaying)
+                footstepAudio.Pause();
+        }
     }
 }
